@@ -1,0 +1,37 @@
+*{margin:0;padding:0:}
+html{background-color:gray;}
+body{width:1200px;height:750px;margin:auto;background-color:pink;}
+header{width:1200px;height:250px;background-color:yellow;}
+nav{width:1200px;height:auto;background-color:lightblue;}
+main{width:1200px;height:500px;background-color:pink;}
+footer{width:1200px;height:100px;background-color:lightblue;}
+section#banner{width:500px;height:250px;float:left;background-color:lightgreen;}
+section#logo{width:550px;height:125px;float:left;background-color:gold;}
+section#login{width:550px;height:125px;float:left;background-color:yellow;}
+aside#left{width:150px;height:auto;float:left;background-color:lightgreen;}
+article{width:900px;height:auto;float:left;background:pink;}
+
+.principal ul{list-style: none;}
+.menu > li{position: relative;display: inline-block;}
+.menu > li > a{display: block;padding: 15px 20px;color: #353535;font-family: 'Open sans';text-decoration: none;}
+.menu li a:hover{color: #CE7D35;transition: all .3s;}
+.submenu{position: absolute;background: #8A2BE2;width: 120%;visibility: hidden;opacity: 0;transition: opacity 1.5s;}
+.submenu li a{display: block;padding: 15px;color: #fff;font-family: 'Open sans';text-decoration: none;}
+.menu li:hover .submenu{visibility: visible;opacity: 1;}
+
+.slider {margin: auto;overflow: hidden;}
+.slider ul {display: flex;padding: 0;width: 400%;animation: animaciones 35s infinite alternate;}
+.slider li {list-style: none;width: 100%;}
+.slider img {width: 100%;}
+@keyframes animaciones {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}}
